@@ -7,7 +7,7 @@
 import SwiftUI
 import LocalAuthentication
 
-class Bio {
+public class Bio {
     static let shared = Bio()
     
     private init() { }
