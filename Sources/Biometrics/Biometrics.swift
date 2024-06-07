@@ -8,11 +8,8 @@ import SwiftUI
 import LocalAuthentication
 
 public class Bio {
-    static let shared = Bio()
-    
-    private init() { }
-        
-    func authenticate(closure: @escaping (Bool) -> ()) {
+            
+    public class func authenticate(closure: @escaping (Bool) -> ()) {
         let context = LAContext()
         var error: NSError?
         
