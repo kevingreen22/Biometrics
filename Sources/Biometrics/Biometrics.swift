@@ -7,8 +7,8 @@
 import SwiftUI
 import LocalAuthentication
 
-class Biometrics {
-    static let shared = Biometrics()
+class Bio {
+    static let shared = Bio()
     
     private init() { }
         
