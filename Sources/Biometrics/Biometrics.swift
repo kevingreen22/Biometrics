@@ -7,7 +7,7 @@
 import SwiftUI
 import LocalAuthentication
 
-public class Bio {
+public class Biometrics {
             
     public class func authenticate(closure: @escaping (Bool) -> ()) {
         let context = LAContext()
